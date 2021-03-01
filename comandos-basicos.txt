@@ -1,0 +1,11 @@
+1- Criando projetos
+composer create-project --prefer-dist laravel/laravel nomeDoProjeto "7.0"
+
+2-Criando Classes e controladores
+php artisan make:controller nomeDoController
+
+3- criando model e migration comando php artisan
+php artisan make:model NOMEDAMODEL -m
+
+4- criando as migrações no banco
+php artisan migrate
